@@ -1,0 +1,429 @@
+@charset "UTF-8";
+
+:root{
+    --cinza-escuro: #3a404e;
+    --cinza-claro: #667085;
+    --vermelho: #8E2424;
+    --branco: #ffffff;
+    --cor-de-fundo-buttons: rgba(142, 36, 36, 0.05);
+    --cor-das-bordas: #EAECF0;
+    --cor-de-fundo-rodape: #F9FAFB;
+    --cor-da-sombra: rgba(16, 24, 40, 0.05);
+    --borda-input: #d0d5dd;
+}
+
+body{
+    font-family: "Inter";
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.imagem_logo{
+    display: flex;
+    align-items: center;
+
+    margin-left: 112px;
+    margin-top: 26.5px;
+    margin-right: 8px;
+    margin-bottom: 26.5px;
+}
+
+.nome_logo{
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    margin-left: 0px;
+    margin-top: 28px;
+    margin-right: 119px;
+    margin-bottom: 28px;
+}
+
+.nav{
+    text-decoration: none;
+
+    color: var(--cinza-claro);
+    font-weight: 500;
+    size: 16px;
+    line-height: 24px;
+    
+    margin-left: 32px;
+    margin-top: 28px;
+    margin-right: 0px;
+    margin-bottom: 28px;
+}
+
+.entrar{
+    text-decoration: none;
+
+    color: var(--cinza-claro);
+
+    margin-left: 398px;
+    margin-top: 28px;
+    margin-right: 0px;
+    margin-bottom: 28px;
+
+}
+
+.cadastrar{
+    text-decoration: none;
+
+    color: var(--branco);
+    background-color: var(--vermelho);
+
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+
+    margin-left: 30px;
+    margin-top: 18px;
+    margin-right: 112px;
+    margin-bottom: 18px;
+
+    border-radius: 6px;
+    border-color: var(--vermelho);
+    box-shadow: none;
+}
+
+.titulo-sobre-nos{
+    color: var(--vermelho);
+    font-weight: 600;
+    size: 16px;
+    line-height: 24px;
+
+    margin-left: 681px;
+    margin-top: 96px;
+    margin-right: 681px;
+}
+
+.pq-somos-diferentes{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+
+    margin-left: 426px;
+    margin-top: 24px;
+    margin-right: 411px;
+    margin-bottom: 36px;
+}
+
+.box-texto{
+    width: 791px;
+    height: 60px;
+
+    color: var(--cinza-claro);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    margin-left: 324px;
+    margin-top: 0px;
+    margin-right: 325px;
+    margin-bottom: 107px;
+}
+
+.informacoes{
+    width: 1350px;
+    height: 288px;
+
+    display: flex;
+
+    margin-left: 112px;
+    margin-top: 0px;
+    margin-right: 112px;
+    margin-bottom: 96px;
+
+    padding-left: 32px;
+}
+
+.box-informacoes{
+    width: 260px;
+    height: 72px;
+
+    align-items: center;
+
+    margin-left: 32px;
+    margin-top: 0px;
+    margin-right: 32px;
+    margin-bottom: 96px;
+}
+
+.titulo-informacoes{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 0px;
+
+    color: var(--vermelho);
+
+    margin-bottom: 50px;
+
+}
+
+.subtitulo-informacoes{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cinza-escuro);
+
+    margin-left: 0px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+}
+
+.texto-informacoes{
+    width: 220px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza-claro);
+
+    text-align: initial;
+
+    margin-top: 0px;
+}
+
+/*Estamos procurando Talentos*/
+
+.vagas-abertas{
+    color: rgba(142, 36, 36, 1);
+    ;
+    font-weight: 600;
+    size: 16px;
+    line-height: 24px;
+
+    background-color: rgba(142, 36, 36, 0.05);
+
+    text-align: center;
+    border-radius: 16px;
+
+    margin-left: 657.5px;
+    margin-top: 96px;
+    margin-right: 657.5px;
+    margin-bottom: 16px;
+
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+}
+
+.procurando-talentos{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #101828;;
+
+    margin-left: 336px;
+    margin-top: 24px;
+    margin-right: 336px;
+    margin-bottom: 25px;
+}
+
+.texto-vagas{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    margin-left: 336px;
+    margin-top: 0px;
+    margin-right: 336px;
+    margin-bottom: 64px;
+
+}
+
+.img-vagas{
+    width: 1216px;
+    height: 400px;
+
+    margin-left: 140px;
+    margin-top: 64px;
+    margin-right: 140px;
+    margin-bottom: 64px;
+}
+
+.titulo-vagas{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-left: 336px;
+    margin-top: 64px;
+    margin-right: 336px;
+    margin-bottom: 32px;
+}
+
+.box-vagas{
+
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: var(--borda-input);
+    border-radius: 16px;
+
+    margin-left: 336px;
+    margin-top: 0px;
+    margin-right: 336px;
+    margin-bottom: 24px;
+}
+
+.subtitulo-vagas{
+
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+}
+
+.box-faixa-salarial{
+    display: flex;
+
+    margin-left: 24px;
+    margin-top: 0px;
+    margin-right: 481px;
+    margin-bottom: 15px;
+}
+
+/* FeedBack */
+
+.box-feedback{
+    width: 1216px;
+    height: 404px;
+
+    background-color: rgba(195, 25, 25, 0.03);
+    
+
+    margin-left: 150px;
+    margin-top: 96px;
+    margin-right: 112px;
+    margin-bottom: 96px;
+
+    text-align: center;
+}
+
+.titulo-feedback{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: var(--vermelho);
+
+    padding-left: 64px;
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 16px;
+
+    margin: 0px;
+
+}
+
+.feedback{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 32px;
+
+    margin: 0px;
+}
+
+.dev-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0px;
+    padding-bottom: 16px;
+
+}
+
+.dev-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding: 0px;
+    padding-bottom: 4px;
+
+    margin: 0px;
+
+}
+
+.profession{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza-claro);
+
+    padding: 0px;
+    padding-bottom: 64px;
+
+    margin: 0px;
+}
+
+footer{
+    background-color: var(--cor-de-fundo-rodape);
+    text-align: center;
+
+    width: 1511px;
+    height: 435px;
+    top: 3073px;
+
+    padding: 96px, 0px, 96px, 0px;
+    margin-bottom: -10px;
+}
+
+.titulo-footer{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+    margin: 0px;
+
+    padding-left: 336px;
+    padding-top: 96px;
+    padding-right: 336px;
+    padding-bottom: 20px;
+}
+
+.box-cadastro{
+    padding-left: 130px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+
+input{
+
+    width: 250px;
+    height: 10px;
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    
+    padding-left: 12px; 
+    padding-top: 14px; 
+    padding-right: 12px; 
+    padding-bottom: 16px;
+}
+
+.copyright{
+    color: var(--cinza-claro);
+}
+
